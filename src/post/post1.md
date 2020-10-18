@@ -1,24 +1,24 @@
 ---
-title: Charly Clements
-ondertitel: Charly Clements, the traveling illustrator
-description: A greeting card designer and freelance illustrator traveling the world.
+title: Will Bryant
+ondertitel: Humor with commerce, fun, and positivity.
+
+description: An artist & designer based in Austin, TX.
 button: READ MORE
+
 date: 2020-09-10
 tags:
   - tag1
   - tag2
-categories: categorie1
-afbeeldingabout: /img/post1about.jpg
-afbeelding1: /img/post1img1.jpg
-afbeelding2: /img/post1img2.jpg
-afbeelding3: /img/post1img3.jpeg
-afbeelding4: /img/post1img4.jpg
-afbeelding5: /img/post1img5.jpg
-afbeelding6: /img/post1img6.jpeg
+categories: categorie2
+afbeeldingabout: /img/post6about.jpg
+afbeelding1: /img/post6img1.jpg
+afbeelding2: /img/post6img2.jpg
+afbeelding3: /img/post6img3.jpg
+afbeelding4: /img/post6img4.jpg
+afbeelding5: /img/post6img5.jpg
+afbeelding6: /img/post6img6.jpg
 layout: 'layouts/post.html'
-afbeelding: /img/post1img1.jpg
+afbeelding: /img/post6img1.jpg
 ---
 
-Charly Clements is a greeting card designer and freelance illustrator traveling the world with only her iPad. She graduated from Birmingham City University in 2013 with a BA Hons in Visual communication: Illustration and since then has worked with a wide range of clients.
-
-Born with an unhealthy obsession for doodling, Charly loves nothing more than to laze around in her PJ's making magic happen with her pencils. Other hobbies include brainstorming bad puns, using foul language and watching cute animal videos.
+Will Bryant is an artist & designer based in Austin, TX. His work weaves together humor with commerce, fun, and positivity. In his installations, paintings, and product collaborations, there is always a sense of exuberance at play with a colorful palette. You can see some of his work around Austin at places like Amy’s Ice Creams, Austin Motel, Better Half, Brew & Brew, and Last Straw. He studied graphic design at Mississippi State University (2008) and received an MFA in Contemporary Art Practice from Portland State University (2013).
