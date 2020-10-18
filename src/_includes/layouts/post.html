@@ -2,5 +2,22 @@
 
 {% block content %}
  	<h3>Blogpost: {{ title }}</h3>
-  {{ content | safe }}
+  <div class="about">
+    <div>
+      <img class="afbeeldingabout" src="{{ afbeeldingabout }}">
+    </div>
+    <div>
+      <h4>{{ ondertitel }}</h4>
+      {{ content | safe }}
+    </div>
+  </div>
+
+  <div class="column">
+    <img src="{{ afbeelding1 }}">
+    <img src="{{ afbeelding2 }}">
+    <img src="{{ afbeelding3 }}">
+    <img src="{{ afbeelding4 }}">
+    <img src="{{ afbeelding5 }}">
+    <img src="{{ afbeelding6 }}">
+  </div>
 {% endblock %}

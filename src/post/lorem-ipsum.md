@@ -1,16 +1,22 @@
 ---
-title: Eerste post
-description: This is a post on My Blog about agile frameworks.
+title: Charly Clements
+ondertitel: Charly Clements, the traveling illustrator
+description: This is a post about Charly Clements.
 date: 2020-09-10
 tags:
   - tag1
   - tag2
 categories: categorie1
+afbeeldingabout: /img/post1about.jpg
+afbeelding1: /img/post1img1.jpg
+afbeelding2: /img/post1img2.jpg
+afbeelding3: /img/post1img3.jpeg
+afbeelding4: /img/post1img4.jpg
+afbeelding5: /img/post1img5.jpg
+afbeelding6: /img/post1img6.jpeg
 layout: 'layouts/post.html'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat viverra feugiat. Nulla mattis urna ac laoreet convallis. Mauris tempor lacinia condimentum. Fusce volutpat sollicitudin nunc, eu porttitor nulla varius non. Nam in sagittis purus, id volutpat turpis. Fusce nibh nulla, finibus sed enim vel, ullamcorper consectetur lectus. Donec sit amet augue augue. Proin eros lectus, pulvinar sit amet ligula ut, malesuada mattis sem. Mauris egestas tellus vitae quam pretium dictum hendrerit nec neque. Nullam id metus ultrices, tincidunt nisi in, congue arcu. Aliquam eu commodo massa. Fusce placerat orci vitae sollicitudin aliquet.
+Charly Clements is a greeting card designer and freelance illustrator traveling the world with only her iPad. She graduated from Birmingham City University in 2013 with a BA Hons in Visual communication: Illustration and since then has worked with a wide range of clients.
 
-Nam nec efficitur nisl. Curabitur vitae tincidunt urna, sit amet placerat ipsum. Sed vitae augue ac ligula scelerisque bibendum non non leo. Nulla in fringilla nunc. Morbi elit ligula, scelerisque non ipsum eu, interdum pulvinar nulla. Nulla vitae imperdiet libero, ut ullamcorper odio. Quisque interdum dictum neque, vitae blandit dui blandit vel. Donec eu velit et ligula sodales consequat ut eget tellus. Cras elementum sed enim non semper. Fusce sodales sollicitudin odio, vitae hendrerit sem posuere nec. Nam a maximus diam, ac ultrices sem.
-
-Integer massa diam, pellentesque vitae luctus in, pulvinar quis dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu arcu in nisl efficitur sodales non et nisi. Nam eu nulla nibh. Aliquam eleifend quis mi nec ultrices. Vestibulum non imperdiet lacus. Fusce eget sagittis neque, eu imperdiet orci. Mauris dignissim ultricies neque, a posuere diam placerat ac. Mauris non sagittis velit. Nam interdum lectus ipsum, sit amet pulvinar metus facilisis at.
+Born with an unhealthy obsession for doodling, Charly loves nothing more than to laze around in her PJ's making magic happen with her pencils. Other hobbies include brainstorming bad puns, using foul language and watching cute animal videos.

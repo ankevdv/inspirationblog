@@ -1,16 +1,31 @@
 ---
-title: Lorem ipsum dolor sit amet
+title: Pavlov Visuals
 description: This is a post on My Blog about agile frameworks.
 date: 2020-09-10
 tags:
   - tag1
   - tag2
 categories: categorie2
+afbeeldingabout: /img/post2about.png
+afbeelding1: /img/post2img1.png
+afbeelding2: /img/post2img2.png
+afbeelding3: /img/post2img3.jpg
+afbeelding4: /img/post2img4.png
+afbeelding5: /img/post2img5.jpg
+afbeelding6: /img/post2img6.jpg
 layout: 'layouts/post.html'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat viverra feugiat. Nulla mattis urna ac laoreet convallis. Mauris tempor lacinia condimentum. Fusce volutpat sollicitudin nunc, eu porttitor nulla varius non. Nam in sagittis purus, id volutpat turpis. Fusce nibh nulla, finibus sed enim vel, ullamcorper consectetur lectus. Donec sit amet augue augue. Proin eros lectus, pulvinar sit amet ligula ut, malesuada mattis sem. Mauris egestas tellus vitae quam pretium dictum hendrerit nec neque. Nullam id metus ultrices, tincidunt nisi in, congue arcu. Aliquam eu commodo massa. Fusce placerat orci vitae sollicitudin aliquet.
+Pavlov Visuals is Calvin, Ryan and Josh. With headquarters in the US and Amsterdam, their goal is to add a bit of music to your brand’s visual identity.
 
-Nam nec efficitur nisl. Curabitur vitae tincidunt urna, sit amet placerat ipsum. Sed vitae augue ac ligula scelerisque bibendum non non leo. Nulla in fringilla nunc. Morbi elit ligula, scelerisque non ipsum eu, interdum pulvinar nulla. Nulla vitae imperdiet libero, ut ullamcorper odio. Quisque interdum dictum neque, vitae blandit dui blandit vel. Donec eu velit et ligula sodales consequat ut eget tellus. Cras elementum sed enim non semper. Fusce sodales sollicitudin odio, vitae hendrerit sem posuere nec. Nam a maximus diam, ac ultrices sem.
+Born in Texas, USA, this tremendous trio has been cooperating since the cradle. Literally, in the case of Calvin and Ryan, who are twins (don’t worry, it’s easy to tell them apart). A few arguments about the red marker in their shared pencil case aside, their artistic association is pretty much genetic.
 
-Integer massa diam, pellentesque vitae luctus in, pulvinar quis dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu arcu in nisl efficitur sodales non et nisi. Nam eu nulla nibh. Aliquam eleifend quis mi nec ultrices. Vestibulum non imperdiet lacus. Fusce eget sagittis neque, eu imperdiet orci. Mauris dignissim ultricies neque, a posuere diam placerat ac. Mauris non sagittis velit. Nam interdum lectus ipsum, sit amet pulvinar metus facilisis at.
+In art school, Ryan and Calvin spent countless hours playing music together. But guitar solos and drum sticks weren’t the only things on their minds: in their spare time, they were also entering the stage as graphic designers. It started with smaller gigs for a handful of clients, but by the time graduation came around, design and illustration had become the two brothers’ bread and butter.
+
+Having found their passion in life, Calvin and Ryan teamed up with lifelong friend Josh to form Pavlov Visuals: the design agency for brands and companies who’d like to stand out among the masses. Adding a unique touch to businesses with their effective and beautiful design solutions, Pavlov Visuals quickly gathered a wide range of clients.
+
+Sounds like music to the ears eyes, doesn’t it? As Calvin and Ryan found out, making music is not all that different from creating icons, logos, packaging designs and visual identities. In the end, both artistic endeavours are all about channelling creative energy to draw landscapes, kindle amazement and pull in audiences through excitement and beauty.  
+
+No wonder Pavlov’s horizon has only been expanding. In 2014, Calvin established a second office in Amsterdam, allowing the three partners to tune in with clients almost 24/7. Utilising the time difference to increase the studio’s output and optimise their efficacy, Calvin starts his office hours right when Ryan and Josh are about to wrap up their days.
+
+Keeping creativity and client commitment at the heart of everything they do, Pavlov Visuals have helped countless brands find their voice.

@@ -1,9 +1,14 @@
 body {
-	width: 80vw;
 	margin: 5rem auto;
 	font-size: 2rem;
 	font-family:'Cormorant Garamond', serif;
 	background-color: #F8F9F6;
+}
+
+/* HEADER */
+
+header h1 {
+	text-align: center;
 }
 
 header h1 a {
@@ -13,12 +18,20 @@ header h1 a {
 	font-weight: 300;
 }
 
+header {
+	padding-bottom: 4rem;
+	border-bottom: .1rem solid black;
+	margin-bottom: 5rem;
+}
+
 header nav ul {
 	display: flex;
 	flex-direction: column;
 	margin-top: 2rem;
 	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 300;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 header nav ul li {
@@ -26,16 +39,34 @@ header nav ul li {
 }
 
 header nav ul li a {
-	color: firebrick;
+	color: black;
+	font-size: 1.3rem;
+	text-decoration: none;
 }
 
 header nav ul li a.selected {
-	color: white;
-	background-color: firebrick;
+	text-decoration: underline;
 }
 
-header {
-	margin-bottom: 5rem;
+/* MAIN */
+
+main {
+	width: 80vw;
+	margin: 5rem auto;
+}
+
+.hometitel {
+	text-align: center;
+	font-size: 6rem;
+	padding-top: 3rem;
+}
+
+.ondertitel {
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 300;
+	font-size: 1.3rem;
+	padding-bottom: 10rem;
 }
 
 main h2 {
@@ -72,8 +103,30 @@ main ul.blog li {
 	margin-bottom: 2rem;
 }
 
-main {
-	margin-bottom: 5rem;
+/* BLOG */
+
+h4 {
+	font-size: 6rem;
+	text-transform: uppercase;
+	padding-bottom: 3rem;
+	padding-top: 5rem;
+}
+
+.about {
+	margin-top: 6rem;
+	margin-bottom: 10rem;
+}
+
+/* FOOTER */
+
+footer {
+	border-top: .1rem solid black;
+	padding-top: 4rem;
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 1.3rem;
 }
 
 @media (min-width: 800px) {
@@ -81,7 +134,7 @@ main {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		width: 40rem;
+		width: 20rem;
 		margin-top: 0;
 	}
 
@@ -93,5 +146,21 @@ main {
 		position: absolute;
 		top: 5.5rem;
 		right: 10vw;
+	}
+
+	/* BLOG */
+
+	.about {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin-top: 10rem;
+	}
+
+	h4 {
+		padding-top: 8rem;
+	}
+
+	.column {
+		column-count: 3;
 	}
 }
