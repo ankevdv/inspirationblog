@@ -1,5 +1,5 @@
 ---
-title: Lorem ipsum dolor sit amet
+title: Eerste post
 description: This is a post on My Blog about agile frameworks.
 date: 2020-09-10
 tags:

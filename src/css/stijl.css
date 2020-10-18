@@ -2,20 +2,23 @@ body {
 	width: 80vw;
 	margin: 5rem auto;
 	font-size: 2rem;
-	font-family: "helvetica neue",helvetica;
+	font-family:'Cormorant Garamond', serif;
+	background-color: #F8F9F6;
 }
 
 header h1 a {
 	color: black;
 	text-decoration: none;
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 300;
 }
 
 header nav ul {
 	display: flex;
 	flex-direction: column;
 	margin-top: 2rem;
+	font-family: 'Noto Sans JP', sans-serif;
+	text-transform: uppercase;
 }
 
 header nav ul li {
