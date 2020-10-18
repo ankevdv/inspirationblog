@@ -132,7 +132,7 @@ main h3 {
 	font-size: 6rem;
 	text-transform: uppercase;
 	padding-bottom: 3rem;
-	padding-top: 5rem;
+	padding-top: 0rem;
 }
 
 .about {
@@ -243,6 +243,7 @@ footer {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		margin-top: 10rem;
+		column-gap: 5rem;
 	}
 
 	h4 {
@@ -276,8 +277,8 @@ footer {
 	}
 
 	.afbeeldingrecent1, .afbeeldingrecent2  {
-		width: 65rem;
-		height: 60rem;
+		width: 45rem;
+		height: 40rem;
 	}
 
 	.recentpostkader a {

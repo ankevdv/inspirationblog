@@ -1,7 +1,7 @@
 ---
 title: Charly Clements
 ondertitel: Charly Clements, the traveling illustrator
-description: Charly Clements is a greeting card designer and freelance illustrator traveling the world
+description: A greeting card designer and freelance illustrator traveling the world.
 button: READ MORE
 date: 2020-09-10
 tags:
