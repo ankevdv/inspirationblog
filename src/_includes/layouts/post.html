@@ -1,16 +1,17 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
- 	<h3>Blogpost: {{ title }}</h3>
-  <div class="about">
-    <div>
-      <img class="afbeeldingabout" src="{{ afbeeldingabout }}">
+  <div class="bodytekst">
+    <h3>Blogpost: {{ title }}</h3>
+    <div class="about">
+      <div>
+        <img class="afbeeldingabout" src="{{ afbeeldingabout }}">
+      </div>
+      <div class="blogpost">
+        <h4>{{ ondertitel }}</h4>
+        {{ content | safe }}
+      </div>
     </div>
-    <div>
-      <h4>{{ ondertitel }}</h4>
-      {{ content | safe }}
-    </div>
-  </div>
 
   <div class="column">
     <img src="{{ afbeelding1 }}">
@@ -19,5 +20,7 @@
     <img src="{{ afbeelding4 }}">
     <img src="{{ afbeelding5 }}">
     <img src="{{ afbeelding6 }}">
+  </div>
+
   </div>
 {% endblock %}

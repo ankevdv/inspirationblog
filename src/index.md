@@ -1,6 +1,12 @@
 ---
-title: 'INSPIRATION BLOG'
-ondertitel: 'Documenting since 2020'
+title: 'GRAPHIC INSPIRATION'
+ondertitel: 'Documenting graphic design inspiration since 2020'
+featuredblog: Recent blogposts
+afbeelding1: /img/post1img1.jpg
+titelafbeelding1: Charly Clements, the traveling illustrator
+afbeelding2: /img/post2img3.jpg
+titelafbeelding2: Pavlov Visuals, creativity and client commitment
+knopall: View all posts
 layout: 'layouts/home.html'
 ---
 

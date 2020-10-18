@@ -1,6 +1,10 @@
 ---
 title: Pavlov Visuals
-description: This is a post on My Blog about agile frameworks.
+ondertitel: Creativity and client commitment at the heart of everything
+
+description: Charly Clements is a greeting card designer and freelance illustrator traveling the world
+button: READ MORE
+
 date: 2020-09-10
 tags:
   - tag1
@@ -14,6 +18,7 @@ afbeelding4: /img/post2img4.png
 afbeelding5: /img/post2img5.jpg
 afbeelding6: /img/post2img6.jpg
 layout: 'layouts/post.html'
+afbeelding: /img/post2img1.png
 ---
 
 Pavlov Visuals is Calvin, Ryan and Josh. With headquarters in the US and Amsterdam, their goal is to add a bit of music to your brand’s visual identity.

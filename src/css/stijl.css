@@ -40,7 +40,7 @@ header nav ul li {
 
 header nav ul li a {
 	color: black;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	text-decoration: none;
 }
 
@@ -48,9 +48,13 @@ header nav ul li a.selected {
 	text-decoration: underline;
 }
 
+header nav ul li a:hover {
+	text-decoration: underline;
+}
+
 /* MAIN */
 
-main {
+.bodytekst {
 	width: 80vw;
 	margin: 5rem auto;
 }
@@ -58,7 +62,7 @@ main {
 .hometitel {
 	text-align: center;
 	font-size: 6rem;
-	padding-top: 3rem;
+	padding-top: 5rem;
 }
 
 .ondertitel {
@@ -95,17 +99,36 @@ main h3 {
 	margin-bottom: 3rem;
 }
 
-main ul.blog li a {
-	color: firebrick;
+/* BLOG PAGE */
+
+.bloglink a {
+	text-decoration: none;
+	display: block;
+	color: black;
+	padding-bottom: 2rem;
 }
 
-main ul.blog li {
+.bloglink {
 	margin-bottom: 2rem;
+	border: .1rem solid black;
+	padding: 3rem;
 }
 
-/* BLOG */
+.blog {
+	margin-bottom: 5rem;
+}
 
-h4 {
+.blogtitel {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 3rem;
+}
+
+
+
+/* BLOGPOST */
+
+.blogpost h4 {
 	font-size: 6rem;
 	text-transform: uppercase;
 	padding-bottom: 3rem;
@@ -116,6 +139,72 @@ h4 {
 	margin-top: 6rem;
 	margin-bottom: 10rem;
 }
+
+/* HOME */
+
+.titelhome {
+	border-bottom: .1rem solid black;
+}
+
+.recentposts {
+	border-bottom: .1rem solid black;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+}
+
+.recentposts p {
+	font-size: 4rem;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.recentposts a {
+	text-decoration: none;
+	color: black;
+}
+
+.recentpostkader {
+	text-align: center;
+	border-bottom: .1rem solid black;
+}
+
+.recentpostkader a {
+	font-size: 4rem;
+	font-weight: 300;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 4rem;
+}
+
+.afbeeldingrecent1 {
+	width: 35rem;
+	height: 30rem;
+	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(/img/post1img1.jpg);
+}
+
+.afbeeldingrecent2 {
+	width: 35rem;
+	height: 30rem;
+	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+		background-image: url(/img/post2img1.png);
+}
+
+.kader1, .kader2 {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+
 
 /* FOOTER */
 
@@ -148,7 +237,7 @@ footer {
 		right: 10vw;
 	}
 
-	/* BLOG */
+	/* BLOGPOST */
 
 	.about {
 		display: grid;
@@ -162,5 +251,48 @@ footer {
 
 	.column {
 		column-count: 3;
+	}
+
+	/* BLOGPAGINA */
+
+	.blog {
+		column-count: 3;
+		column-gap: 5rem;
+	}
+
+	.blog li {
+		break-inside: avoid;
+	}
+
+	/* HOME */
+
+	.recentpostkader {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.kader1 {
+		border-right: .1rem solid black
+	}
+
+	.afbeeldingrecent1, .afbeeldingrecent2  {
+		width: 65rem;
+		height: 60rem;
+	}
+
+	.recentpostkader a {
+		display: block;
+		width: 65rem;
+		margin: auto;
+	}
+
+	.recentposts {
+		position: relative;
+	}
+
+	.knopall {
+		position: absolute;
+		right: 5rem;
+		top: 6rem;
 	}
 }

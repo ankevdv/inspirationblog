@@ -1,7 +1,25 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
- 	<h2 class="hometitel">{{ title }}</h2>
-  <h3 class="ondertitel">{{ ondertitel }}</h3>
+  <div class="titelhome">
+   	<h2 class="hometitel">{{ title }}</h2>
+    <h3 class="ondertitel">{{ ondertitel }}</h3>
+  </div>
+  <div class="recentposts">
+    <p>{{ featuredblog }}</p>
+    <a class="knopall" href="blog/">{{ knopall }}</a>
+  </div>
+  <div class="recentpostkader">
+    <div class="kader1">
+      <div class="afbeeldingrecent1"></div>
+      <a href="post/post1">{{ titelafbeelding1 }}</a>
+    </div>
+    <div class="kader2">
+      <div class="afbeeldingrecent2"></div>
+      <a href="post/post2">{{ titelafbeelding2 }}</a>
+    </div>
+  </div>
+  <div class="bodytekst">
   {{ content | safe }}
+  </div>
 {% endblock %}
