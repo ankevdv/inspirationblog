@@ -1,7 +1,8 @@
 ---
 title: Will Bryant
 ondertitel: Humor with commerce, fun, and positivity.
-description: An artist & designer based in Austin, TX.
+description: An artist & designer based in Austin, TX. With his work he tries to combine humour with commerce, fun and positivity. In his installations, paintings and product collaborations there is always a sense of exuberance with a colourful palette.
+overviewtitel: Will Bryant, humor with commerce, fun, and positivity.
 button: READ MORE
 datum: 8 Oct 2020
 date: 2020-09-10

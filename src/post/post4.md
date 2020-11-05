@@ -1,8 +1,9 @@
 ---
 title:  Marta Veludo
 ondertitel: Inspired by the pop-culture, folk art, pound shops and tumblr
+overviewtitel: Marta Veludo, inspired by the pop-culture, folk art, pound shops and tumblr
 datum: 11 Oct 2020
-description: A graphic designer currently working in Amsterdam.
+description: Marta Veludo is a graphic designer inspired by pop culture, folk art, pound shops and tumblr. She is also fascinated by inventions, colour, movement and compositions. 
 button: READ MORE
 date: 2020-09-10
 tags:

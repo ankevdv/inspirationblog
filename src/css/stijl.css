@@ -105,33 +105,50 @@ main h3 {
 	text-decoration: none;
 	display: block;
 	color: black;
-	padding-bottom: 2rem;
 }
 
 .bloglink {
-	margin-bottom: 2rem;
-	border: .1rem solid black;
-	padding: 3rem;
+	border-bottom: .1rem solid black;
+	margin-left: 0rem;
+	margin-right: 0rem;
 }
 
-.blog {
-	margin-bottom: 5rem;
+.infopost {
+	padding-left: 6rem;
+	padding-right: 6rem;
+	border-left: .1rem solid black;
+	padding-bottom: 6rem;
 }
+
+.fotopost {
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+	height: 45rem;
+}
+
 
 .blogtitel {
 	font-weight: 600;
 	text-transform: uppercase;
-	font-size: 3rem;
+	font-size: 4rem;
+	padding-top: 0rem;
+	padding-bottom: 1rem;
+}
+
+.blogdate {
+	padding-bottom: 4rem;
 }
 
 .blogbutton {
 	font-family: 'Noto Sans JP', sans-serif;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 1.6rem;
-	padding-top: 1rem;
+	padding-top: 4rem;
 }
 
-.blogbutton:hover {
+.blogbutton:hover{
 	text-decoration: underline;
 }
 
@@ -151,6 +168,11 @@ main h3 {
 }
 
 /* HOME */
+
+.bodytekstaboutme {
+	padding: 5rem;
+	border-bottom: .1rem solid black;
+}
 
 .titelhome {
 	border-bottom: .1rem solid black;
@@ -227,7 +249,6 @@ main h3 {
 /* FOOTER */
 
 footer {
-	border-top: .1rem solid black;
 	padding-top: 4rem;
 	text-align: center;
 	font-family: 'Noto Sans JP', sans-serif;
@@ -272,18 +293,6 @@ footer {
 		column-count: 3;
 	}
 
-	/* BLOGPAGINA */
-
-	.blog {
-		column-count: 3;
-		column-gap: 3rem;
-	}
-
-	.bloglink {
-		break-inside: avoid;
-		height: 65rem;
-	}
-
 	/* HOME */
 
 	.recentpostkader {
@@ -315,4 +324,99 @@ footer {
 		right: 5rem;
 		top: 6rem;
 	}
+}
+
+@media (min-width: 800px) {
+	.bloglink {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-row-gap: 0rem;
+		grid-column-gap: 0rem;
+		border-bottom: .1rem solid black;
+		margin-left: 0rem;
+		margin-right: 0rem;
+	}
+
+	.infopost {
+		padding-left: 6rem;
+		padding-right: 6rem;
+		border-left: .1rem solid black;
+		padding-bottom: 6rem;
+	}
+
+	.fotopost {
+		padding-left: 3rem;
+		padding-right: 3rem;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		height: 45rem;
+	}
+
+	.blogtitel {
+		font-weight: 600;
+		text-transform: uppercase;
+		font-size: 4rem;
+		padding-top: 6rem;
+		padding-bottom: 1rem;
+	}
+}
+
+/* FORM CONTACT */
+
+.contactformulier input, textarea, select {
+      font-family: inherit;
+      font-size: 100%;
+}
+
+.contactformulier label, input {
+      display: block;
+      margin: 1rem 0;
+}
+
+.contactformulier input {
+      padding: .5rem;
+			background-color: #F8F9F6;
+			border: 1px solid black;
+}
+
+.contactformulier textarea {
+      padding: .5rem;
+			background-color: #F8F9F6;
+			border: 1px solid black;
+}
+
+.contactformulier input[type="submit"] {
+      background-color: none;
+      border-radius: 0.5rem;
+      border: 1px solid black;
+}
+
+.contactformulier {
+      background-color: none;
+			padding-bottom: 4rem;
+			width: 80vw;
+			margin: .5rem auto;
+}
+
+.bodytekstcontact {
+	padding: 5rem;
+	border-bottom: .1rem solid black;
+}
+
+
+
+@media (min-width: 700px) {
+    .contactformulier{
+      display: grid;
+      grid-template-columns: 10rem 1fr;
+
+      }
+
+      .contactformulier h5 {
+            grid-column: 1 / 3;
+      }
+
+      .contactformulier input[type="submit"] {
+            grid-column: 2;
+      }
 }
