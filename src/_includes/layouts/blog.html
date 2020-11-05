@@ -6,6 +6,21 @@
     <h3 class="ondertitel">{{ ondertitel }}</h3>
   </div>
   <div class="bodytekst2">
-  {{ content | safe }}
+    {% for item in pagination.items %}
+    <div class="blog">
+    {%- for post in collections.post | reverse -%}
+      <div class="bloglink">
+        <img class="fotopost" src='{{ post.data.afbeelding }}'>
+        <div class="infopost">
+          <a class="blogtitel" href="{{ post.url | url }}">{{ post.data.overviewtitel }}</a>
+          <a class="blogdate" href="{{ post.url | url }}">{{ post.data.datum }}</a>
+          <a href="{{ post.url | url }}">{{ post.data.description }}</a>
+          <a class="blogbutton" href="{{ post.url | url }}">{{ post.data.button }}</a>
+        </div>
+     </div>
+    {%- endfor -%}
+    </div>
+    {% endfor %}
   </div>
+   {% include "partials/pagination.html" %}
 {% endblock %}

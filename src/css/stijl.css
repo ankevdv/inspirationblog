@@ -424,3 +424,26 @@ footer {
             grid-column: 2;
       }
 }
+
+/* PAGINATION */
+
+.pagination {
+	text-decoration: none;
+	border-bottom: .1rem solid black;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.pagination a{
+	text-decoration: none;
+	color: black;
+}
+
+.previous {
+	margin-right: 3rem;
+}
+
+.next {
+	margin-left: 3rem;
+}
