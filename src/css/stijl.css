@@ -291,6 +291,10 @@ footer {
 
 	.column {
 		column-count: 3;
+		border-bottom: .1rem solid black;
+		padding-left: 13rem;
+		padding-right: 13rem;
+		padding-bottom: 10rem;
 	}
 
 	/* HOME */
