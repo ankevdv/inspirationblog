@@ -9,7 +9,7 @@ titelafbeelding2: Pavlov Visuals, creativity and client commitment
 knopall: View all posts
 layout: 'layouts/home.html'
 
-titeltekst: More about me
+titeltekst: MORE ABOUT ME
 ---
 
 My name is Anke, I am a young digital creative person with a passion for communication and design. In June 2019 I obtained my degree in Communication Management, Commercial Communication. During this course I learned how to develop campaigns based on the needs of the customer. The visual aspect of communication interested me enormously and that is why in September 2019 I started a new adventure, a shortened course Graphic and Digital Media, Crossmedia Design.

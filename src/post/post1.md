@@ -1,10 +1,9 @@
 ---
 title: Will Bryant
 ondertitel: Humor with commerce, fun, and positivity.
-
 description: An artist & designer based in Austin, TX.
 button: READ MORE
-
+datum: 8 Oct 2020
 date: 2020-09-10
 tags:
   - tag1
@@ -21,4 +20,4 @@ layout: 'layouts/post.html'
 afbeelding: /img/post6img1.jpg
 ---
 
-Will Bryant is an artist & designer based in Austin, TX. His work weaves together humor with commerce, fun, and positivity. In his installations, paintings, and product collaborations, there is always a sense of exuberance at play with a colorful palette. You can see some of his work around Austin at places like Amy’s Ice Creams, Austin Motel, Better Half, Brew & Brew, and Last Straw. He studied graphic design at Mississippi State University (2008) and received an MFA in Contemporary Art Practice from Portland State University (2013).
+Will Bryant is an artist and designer from Austin, TX. With his work he tries to combine humour with commerce, fun and positivity. In his installations, paintings and product collaborations there is always a sense of exuberance with a colourful palette. He studied graphic design at Mississippi State University (2008) and received an MFA in the Contemporary Art Practice at Portland State University (2013). His use of colour and geometric shapes really appeal to me. His works are also very nice and express positivity.

@@ -3,7 +3,8 @@ title: Charly Clements
 ondertitel: Charly Clements, the traveling illustrator
 description: A greeting card designer and freelance illustrator traveling the world.
 button: READ MORE
-date: 2020-09-10
+datum: 13 Oct 2020
+date: 2020-10-15
 tags:
   - tag1
   - tag2
@@ -19,6 +20,6 @@ layout: 'layouts/post.html'
 afbeelding: /img/post1img1.jpg
 ---
 
-Charly Clements is an amazing greeting card designer and freelance illustrator traveling the world with only her iPad. She graduated from Birmingham City University in 2013 with a BA Hons in Visual communication: Illustration and since then has worked with a wide range of clients.
+Charly Clements is a great greeting card designer and freelance illustrator who travels the world with just her iPad. She graduated from Birmingham City University in 2013 with a BA Hons in Visual Communication: Illustration and has since worked with a wide range of clients.
 
-Born with an unhealthy obsession for doodling, Charly loves nothing more than to laze around in her PJ's making magic happen with her pencils. Other hobbies include brainstorming bad puns, using foul language and watching cute animal videos.
+I discovered Charly Clements on instagram and immediately fell in love with her illustration style. The cheerful colours immediately appealed to me. If you want tips and tricks from this fantastic illustrator you should definitely take a look at her skillshare lessons!

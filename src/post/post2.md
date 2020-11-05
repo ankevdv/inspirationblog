@@ -1,10 +1,9 @@
 ---
 title: Ben Grandgenett
 ondertitel: A Brooklyn-based graphic designer and art director.
-
 description: A Brooklyn-based graphic designer and art director.
 button: READ MORE
-
+datum: 9 Oct 2020
 date: 2020-09-10
 tags:
   - tag1
@@ -21,4 +20,4 @@ layout: 'layouts/post.html'
 afbeelding: /img/post5img5.jpg
 ---
 
-Ben Grandgenett is a Brooklyn-based graphic designer and art director, born and raised in Nebraska. He is currently the Art Director at The New York Times Magazine.
+Ben Grandgenett is a graphic designer and art director now based in Brooklyn. He is currently the Art Director of The New York Times Magazine. I love his modern approach, which sometimes includes retro elements. 
