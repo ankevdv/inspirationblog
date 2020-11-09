@@ -8,19 +8,17 @@
   <div class="bodytekst2">
     {% for item in pagination.items %}
     <div class="blog">
-    {%- for post in collections.post | reverse -%}
       <div class="bloglink">
-        <img class="fotopost" src='{{ post.data.afbeelding }}'>
+        <img class="fotopost" src="{{ item.data.afbeelding }}"/>
         <div class="infopost">
-          <a class="blogtitel" href="{{ post.url | url }}">{{ post.data.overviewtitel }}</a>
-          <a class="blogdate" href="{{ post.url | url }}">{{ post.data.datum }}</a>
-          <a href="{{ post.url | url }}">{{ post.data.description }}</a>
-          <a class="blogbutton" href="{{ post.url | url }}">{{ post.data.button }}</a>
+          <a class="blogtitel" href="{{ item.url }}">{{ item.data.overviewtitel }}</a>
+          <a class="blogdate" href="{{ item.url }}">{{ item.data.datum }}</a>
+          <a href="{{ item.url }}">{{ item.data.description }}</a>
+          <a class="blogbutton" href="{{ item.url }}">{{ item.data.button }}</a>
         </div>
      </div>
     {%- endfor -%}
     </div>
-    {% endfor %}
   </div>
    {% include "partials/pagination.html" %}
 {% endblock %}
