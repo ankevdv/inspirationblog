@@ -1,5 +1,5 @@
 ---
 title: 'CONTACT'
-ondertitel: I would love to hear from you!
+ondertitel: Suggestions or comments? I would love to hear from you!
 layout: 'layouts/page.html'
 ---

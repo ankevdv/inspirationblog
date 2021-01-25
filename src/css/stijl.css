@@ -524,6 +524,13 @@ footer {
       border: 1px solid black;
 }
 
+.contactformulier input[type="submit"]:hover {
+      background-color: black;
+			color: #F8F9F6;
+      border-radius: 0.5rem;
+      border: 1px solid black;
+}
+
 .contactformulier {
       background-color: none;
 			padding-bottom: 4rem;
