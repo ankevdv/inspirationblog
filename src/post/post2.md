@@ -6,9 +6,7 @@ overviewtitel: Ben Grandgenett, a Brooklyn-based graphic designer and art direct
 button: READ MORE
 datum: 9 Oct 2020
 date: 2020-09-10
-tags:
-  - tag1
-  - tag2
+tags: ['Graphic design', 'Director', 'Modern', 'Retro']
 categories: categorie2
 afbeeldingabout: /img/post5about.jpg
 afbeelding1: /img/post5img1.jpg

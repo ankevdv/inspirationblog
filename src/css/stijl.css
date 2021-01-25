@@ -153,6 +153,32 @@ main h3 {
 }
 
 
+ul.taglist, ul.postlist {
+	margin-bottom: 5rem;
+}
+
+ul.taglist li, ul.postlist li{
+	margin-bottom: 3rem;
+}
+
+ul.taglist li a, ul.postlist li a {
+	background-color: #F8F9F6;
+	border: 1px solid black;
+	color: black;
+	padding: .75rem;
+}
+
+.taglist a {
+	text-decoration: none;
+}
+
+ul.taglist li a:hover {
+	background-color: black;
+	color: #F8F9F6;
+}
+
+
+
 /* BLOGPOST */
 
 .blogpost h4 {

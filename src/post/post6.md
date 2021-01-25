@@ -6,9 +6,7 @@ description: Charly Clements is a great greeting card designer and freelance ill
 button: READ MORE
 datum: 13 Oct 2020
 date: 2020-10-15
-tags:
-  - tag1
-  - tag2
+tags: ['Illustration', 'Freelancer', 'Procreate', 'Greeting cards', 'Graphic design']
 categories: categorie1
 afbeeldingabout: /img/post1about.jpg
 afbeelding1: /img/post1img1.jpg

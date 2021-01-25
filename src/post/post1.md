@@ -6,7 +6,7 @@ overviewtitel: Will Bryant, humor with commerce, fun, and positivity.
 button: READ MORE
 datum: 8 Oct 2020
 date: 2020-09-10
-tags: ['', '', '']
+tags: ['Graphic design', 'Commercial', 'Colour', 'Geometric Shapes']
 categories: categorie2
 afbeeldingabout: /img/post6about.jpg
 afbeelding1: /img/post6img1.jpg

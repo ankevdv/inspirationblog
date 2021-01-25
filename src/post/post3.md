@@ -6,9 +6,7 @@ datum: 10 Oct 2020
 description: A Motion Graphic Designer and 3D Illustrator working as a freelancer in east London. He always had a real passion for moving images and loved to make art that cannot always be made in the physical world.
 button: READ MORE
 date: 2020-09-10
-tags:
-  - tag1
-  - tag2
+tags: ['3D', 'Motion', 'Freelancer','Motion design']
 categories: categorie2
 afbeeldingabout: /img/post3about.jpeg
 afbeelding1: /img/post3img1.jpg

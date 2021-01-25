@@ -6,9 +6,7 @@ datum: 12 Oct 2020
 description: Pavlov Visuals is Calvin, Ryan and Josh. Their goal is to add a bit of music to the visual identity of a brand.
 button: READ MORE
 date: 2020-10-10
-tags:
-  - tag1
-  - tag2
+tags: ['Music', 'Geometric shapes','Graphic design']
 categories: categorie2
 afbeeldingabout: /img/post2about.png
 afbeelding1: /img/post2img1.png
