@@ -166,6 +166,7 @@ ul.taglist li a, ul.postlist li a {
 	border: 1px solid black;
 	color: black;
 	padding: .75rem;
+	transition: 0.8s;
 }
 
 .taglist a {
@@ -449,6 +450,13 @@ footer {
       .contactformulier input[type="submit"] {
             grid-column: 2;
       }
+			ul.taglist li, ul.postlist li{
+				margin-bottom: 3rem;
+				display: inline;
+				margin-right: 2rem;
+				line-height: 5rem;
+				display: inline-block;
+			}
 }
 
 /* PAGINATION */
