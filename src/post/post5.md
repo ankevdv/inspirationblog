@@ -17,6 +17,8 @@ afbeelding5: /img/post2img5.jpg
 afbeelding6: /img/post2img6.jpg
 layout: 'layouts/post.html'
 afbeelding: /img/post2img2.png
+website: https://www.pavlovvisuals.com/
+auteur: AVDV
 ---
 
 Pavlov Visuals is Calvin, Ryan and Josh. Their goal is to add a bit of music to the visual identity of a brand. They have a lot of customers by adding a unique touch to an identity in combination with beautiful design solutions. I love their use of colour and the use of geometric shapes. They don't create everyday images which makes them stand out to me. The artistic touch in their designs appeals to a lot to me.

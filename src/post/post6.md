@@ -17,6 +17,8 @@ afbeelding5: /img/post1img5.jpg
 afbeelding6: /img/post1img6.jpeg
 layout: 'layouts/post.html'
 afbeelding: /img/post1img1.jpg
+website: https://www.charlyclements.com/
+auteur: AVDV
 ---
 
 Charly Clements is a great greeting card designer and freelance illustrator who travels the world with just her iPad. She graduated from Birmingham City University in 2013 with a BA Hons in Visual Communication: Illustration and has since worked with a wide range of clients.

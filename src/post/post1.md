@@ -17,6 +17,8 @@ afbeelding5: /img/post6img5.jpg
 afbeelding6: /img/post6img6.jpg
 layout: 'layouts/post.html'
 afbeelding: /img/post6img1.jpg
+website: https://willbryantstudio.com/
+auteur: AVDV
 ---
 
 Will Bryant is an artist and designer from Austin, TX. With his work he tries to combine humour with commerce, fun and positivity. In his installations, paintings and product collaborations there is always a sense of exuberance with a colourful palette. He studied graphic design at Mississippi State University (2008) and received an MFA in the Contemporary Art Practice at Portland State University (2013). His use of colour and geometric shapes really appeal to me. His works are also very nice and express positivity.

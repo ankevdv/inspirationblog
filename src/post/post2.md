@@ -17,6 +17,8 @@ afbeelding5: /img/post5img5.jpg
 afbeelding6: /img/post5img6.jpg
 layout: 'layouts/post.html'
 afbeelding: /img/post5img5.jpg
+website: https://bengrandgenett.com/
+auteur: AVDV
 ---
 
 Ben Grandgenett is a graphic designer and art director now based in Brooklyn. He is currently the Art Director of The New York Times Magazine. I love his modern approach, which sometimes includes retro elements.

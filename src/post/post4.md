@@ -17,6 +17,8 @@ afbeelding5: /img/post4img5.jpg
 afbeelding6: /img/post4img6.jpg
 layout: 'layouts/post.html'
 afbeelding: /img/post4img1.jpg
+website: https://www.martaveludo.com/
+auteur: AVDV
 ---
 
 Marta Veludo is a graphic designer inspired by pop culture, folk art, pound shops and tumblr. She is also fascinated by inventions, colour, movement and compositions. She currently works in Amsterdam. She designs & conceptualizes for both the cultural and the commercial field. Whether in the digital domain or on a three-dimensional scale, she combines different disciplines and media to create captivating experiences.

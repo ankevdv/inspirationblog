@@ -1,18 +1,29 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
-  <div class="bodytekst">
-    <h3>Blogpost: {{ title }}, {{ datum }}</h3>
-    <div class="about">
-      <div>
-        <img class="afbeeldingabout" src="{{ afbeeldingabout }}">
-      </div>
-      <div class="blogpost">
-        <h4 class="blogh4">{{ ondertitel }}</h4>
-        {{ content | safe }}
-      </div>
+  <div class="borderbottom">
+    <div class="bodytekst">
+      <h3 class="blogposttiteldatum">Written on {{ datum }} by {{ auteur }}</h3>
     </div>
   </div>
+
+    <div class="about">
+      <div class="imgborderright">
+        <div>
+          <img class="afbeeldingabout" src="{{ afbeeldingabout }}">
+          <p class="imgsource"> {{ afbeeldingaboutsource }} </p>
+        </div>
+      </div>
+      <div>
+        <div class="blogpost">
+          <h4 class="blogh4">{{ ondertitel }}</h4>
+          {{ content | safe }}
+
+        </div>
+    </div>
+  </div>
+
+  <p class="website"> Website: <a href="{{ website }}"> {{ website }} </a></p>
   <div class="column">
     <img src="{{ afbeelding1 }}">
     <img src="{{ afbeelding2 }}">
@@ -22,17 +33,31 @@
     <img src="{{ afbeelding6 }}">
   </div>
   {% if tags %}
-  <div>
-    <h3>Filed under:</h3>
-		<ul class="taglist">
-	      {% for tag in tags %}
-	        <li>
-	          <a href="/tag/{{ tag | slug }}/">{{ tag | title | replace(' ', '') }}</a>
-	        </li>
-	      {% endfor %}
-		</ul>
-  </div>
+  <div id="tag">
+      <h3>TAGS</h3>
+      <div class="borderbottom">
+		    <ul class="taglist">
+	         {% for tag in tags %}
+	          <li>
+	             <a href="/tag/{{ tag | slug }}/">{{ tag | title | replace(' ', '') }}</a>
+	            </li>
+	             {% endfor %}
+		     </ul>
+        </div>
+    </div>
     {% endif %}
-
-
+  <div id="recommended">
+    {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
+    {% if recommendedPosts %}
+    		<h3>Recommended posts</h3>
+    		<ul class="postlist">
+    	  	{% for item in recommendedPosts %}
+    	    <li>
+    	    	<a href="{{ item.url }}">{{ item.data.title }}</a>
+    	    </li>
+    	    {% endfor %}
+    	   </ul>
+    {% endif %}
+  </div>
+  <div class="borderbottom"></div>
 {% endblock %}
