@@ -1,5 +1,5 @@
 body {
-	margin: 5rem auto;
+	margin: 3rem auto;
 	font-size: 2rem;
 	font-family:'Cormorant Garamond', serif;
 	background-color: #F8F9F6;
@@ -14,22 +14,23 @@ header h1 {
 header h1 a {
 	color: black;
 	text-decoration: none;
-	font-size: 3rem;
+	font-size: 1.5rem;
 	font-weight: 300;
+	font-family: 'Archivo Narrow', sans-serif;
+	letter-spacing: .2rem;
 }
 
 header {
-	padding-bottom: 4rem;
+	padding-bottom: 2rem;
 	border-bottom: .1rem solid black;
-	padding-bottom: 5rem;
+	padding-bottom: 2rem;
 }
 
 header nav ul {
 	display: flex;
 	flex-direction: column;
 	margin-top: 2rem;
-	font-family: 'Noto Sans JP', sans-serif;
-	font-weight: 300;
+	font-family: 'Archivo Narrow', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -52,7 +53,12 @@ header nav ul li a:hover {
 	text-decoration: underline;
 }
 
-/* MAIN */
+/* MAIN & HOME */
+
+.knopall:after {
+	content: ' \2192';
+}
+
 
 .bodytekst {
 	width: 80vw;
@@ -67,15 +73,19 @@ header nav ul li a:hover {
 .hometitel {
 	text-align: center;
 	font-size: 6rem;
-	padding-top: 10rem;
+	padding-top: 8rem;
+	font-family:'Cormorant Garamond', serif;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .ondertitel {
 	text-align: center;
-	font-family: 'Noto Sans JP', sans-serif;
-	font-weight: 300;
-	font-size: 1.3rem;
-	padding-bottom: 10rem;
+	font-family:'Cormorant Garamond', serif;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 1.5rem;
+	padding-bottom: 7rem;
 }
 
 main h2 {
@@ -106,6 +116,14 @@ main h3 {
 
 /* BLOG PAGE */
 
+.next:after {
+		content: ' \2192';
+}
+
+.previous::before {
+	content: ' \2190';
+}
+
 .bloglink a {
 	text-decoration: none;
 	display: block;
@@ -116,6 +134,12 @@ main h3 {
 	border-bottom: .1rem solid black;
 	margin-left: 0rem;
 	margin-right: 0rem;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.bloglink:hover {
+	filter: grayscale(0%);
 }
 
 .infopost {
@@ -132,6 +156,7 @@ main h3 {
 	padding-bottom: 1rem;
 	height: 45rem;
 }
+
 
 
 .blogtitel {
@@ -324,7 +349,8 @@ ul.postlist li a:hover {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: url(/img/post1img1.jpg);
+	background-image: url(/img/post10img7.jpg);
+	transition: 1s;
 }
 
 .afbeeldingrecent2 {
@@ -334,8 +360,19 @@ ul.postlist li a:hover {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-		background-image: url(/img/post2img1.png);
+	background-image: url(/img/post9img4.jpg);
+	transition: 1s;
 }
+
+.afbeeldingrecent1, .afbeeldingrecent2  {
+	filter:grayscale(100%);
+}
+
+.afbeeldingrecent1:hover, .afbeeldingrecent2:hover  {
+	filter:grayscale(0%);
+}
+
+
 
 .kader1, .kader2 {
 	padding-top: 5rem;
@@ -354,7 +391,15 @@ ul.postlist li a:hover {
 		border-bottom: .1rem solid black;
 }
 
-
+.recentposts {
+	position: relative;
+}
+.pijl {
+	width: 2rem;
+	position: absolute;
+	right: 16rem;
+	top: 11.5rem;
+}
 
 /* FOOTER */
 
@@ -382,7 +427,7 @@ footer {
 
 	header nav {
 		position: absolute;
-		top: 5.5rem;
+		top: 3rem;
 		right: 10vw;
 	}
 
@@ -454,9 +499,11 @@ footer {
 
 	.knopall {
 		position: absolute;
-		right: 5rem;
+		right: 10rem;
 		top: 6rem;
 	}
+
+
 }
 
 @media (min-width: 800px) {

@@ -1,11 +1,11 @@
 ---
-title: 'GRAPHIC INSPIRATION'
+title: 'Graphic Inspiration'
 ondertitel: 'Documenting graphic design inspiration since 2020'
 featuredblog: Latest blogposts
-afbeelding1: /img/post1img1.jpg
-titelafbeelding1: Charly Clements, the traveling illustrator
-afbeelding2: /img/post2img3.jpg
-titelafbeelding2: Pavlov Visuals, creativity and client commitment
+afbeelding1: /img/post10img7.jpg
+titelafbeelding1: JESSICA WALSH, FOUNDER OF &WALSH
+afbeelding2:  /img/post9about.jpg
+titelafbeelding2: JU SCHNEE, ILLUSTRATOR AND VISUAL ARTIST
 knopall: View all posts
 layout: 'layouts/home.html'
 

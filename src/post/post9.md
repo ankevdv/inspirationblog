@@ -1,23 +1,23 @@
 ---
 title: Ju Schnee
-ondertitel: Ju Schnee
-overviewtitel: Ju Schnee
-description: Ju Schnee
+ondertitel: Ju Schnee is an illustrator and visual artist based in Berlin.
+overviewtitel: Ju Schnee, an illustrator and visual artist based in Berlin
+description: Ju Schnee is an illustrator and visual artist based in Berlin. She creates digital illustrations, motion designs, 3D installations and murals. Ju combines geometric shapes with different media.
 button: READ MORE
-datum: 22 Jan 2021
+datum: 25 Jan 2021
 date: 2021-01-25
 tags: ['Illustration', 'Geometric shapes', '3D' , 'Graphic design', 'Freelancer']
 categories: categorie1
 afbeeldingabout: /img/post9about.jpg
 afbeeldingaboutsource: Image © Fizzy Mag / Brit The Kid
-afbeelding1: /img/post8img1.jpg
-afbeelding2: /img/post8img2.jpg
-afbeelding5: /img/post8img3.jpg
-afbeelding3: /img/post8img4.jpg
-afbeelding6: /img/post8img5.jpg
-afbeelding4: /img/post8img6.jpg
+afbeelding1: /img/post9img1.jpg
+afbeelding2: /img/post9img2.jpg
+afbeelding5: /img/post9img3.jpg
+afbeelding3: /img/post9img4.jpg
+afbeelding6: /img/post9img5.jpg
+afbeelding4: /img/post9img6.jpg
 layout: 'layouts/post.html'
-afbeelding: /img/post8img1.jpg
+afbeelding: /img/post9img4.jpg
 website: https://ju-schnee.com/
 auteur: AVDV
 ---
