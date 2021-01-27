@@ -620,7 +620,7 @@ footer {
 
 
 
-@media (min-width: 200px) {
+@media (min-width: 700px) {
     .contactformulier{
       display: grid;
       grid-template-columns: 10rem 1fr;
@@ -641,7 +641,7 @@ footer {
 				font-family: 'Archivo Narrow', sans-serif;
 				letter-spacing: .2rem;
 				position: absolute;
-				left: -1.7rem;
+				left: -1.4rem;
 				bottom: 41.5rem;
 				transform: rotate(90deg);
 			}
