@@ -3,9 +3,11 @@ title: 'Graphic Inspiration'
 ondertitel: 'Documenting graphic design inspiration since 2020'
 featuredblog: Latest blogposts
 afbeelding1: /img/post10img7.jpg
+postlinksdate: 26 Jan 2021
 titelafbeelding1: JESSICA WALSH, FOUNDER OF &WALSH
 afbeelding2:  /img/post9about.jpg
 titelafbeelding2: JU SCHNEE, ILLUSTRATOR AND VISUAL ARTIST
+postrechtsdate: 25 Jan 2021
 knopall: View all posts
 layout: 'layouts/home.html'
 

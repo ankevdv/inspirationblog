@@ -8,7 +8,8 @@ button: READ MORE
 date: 2020-09-10
 tags: ['Pop culture', 'Colour', 'Movement', 'Cultural', 'Commercial','Graphic design']
 categories: categorie2
-afbeeldingabout: /img/post4about.png
+afbeeldingaboutsource: Image © Curvo
+afbeeldingabout: /img/marta.jpg
 afbeelding1: /img/post4img1.jpg
 afbeelding2: /img/post4img2.jpg
 afbeelding3: /img/post4img3.png

@@ -7,6 +7,7 @@ button: READ MORE
 datum: 9 Oct 2020
 date: 2020-09-10
 tags: ['Graphic design', 'Director', 'Modern', 'Retro']
+afbeeldingaboutsource: Image © Shillington
 categories: categorie2
 afbeeldingabout: /img/post5about.jpg
 afbeelding1: /img/post5img1.jpg

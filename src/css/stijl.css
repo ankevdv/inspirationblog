@@ -33,6 +33,7 @@ header nav ul {
 	font-family: 'Archivo Narrow', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
+	letter-spacing: .1rem;
 }
 
 header nav ul li {
@@ -91,7 +92,7 @@ header nav ul li a:hover {
 main h2 {
 	font-size: 2.25rem;
 	font-weight: 600;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 
 main p {
@@ -168,18 +169,36 @@ main h3 {
 }
 
 .blogdate {
-	padding-bottom: 4rem;
+	padding-top: .5rem;
+	padding-bottom: 3rem;
+	font-size: 1.7rem;
+	font-family: 'Archivo Narrow', sans-serif;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
 }
 
 .blogbutton {
-	font-family: 'Noto Sans JP', sans-serif;
-	font-weight: 600;
-	font-size: 1.6rem;
-	padding-top: 4rem;
+	margin-top: 4rem;
+	font-family: 'Archivo Narrow', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: .1rem;
+	font-size: 1.7rem;
+	font-weight: 500;
+	width: 15rem;
+	background-color: #F8F9F6;
+	border: 1px solid black;
+	color: black;
+	padding: 1rem;
+	text-align: center;
+	transition: 1s;
 }
 
+
 .blogbutton:hover{
-	text-decoration: underline;
+	background-color: black;
+	color: #F8F9F6;
+	border: 1px solid black;
 }
 
 /* BLOGPOST */
@@ -301,7 +320,10 @@ ul.postlist li a:hover {
 /* HOME */
 
 .bodytekstaboutme {
-	padding: 5rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 	border-bottom: .1rem solid black;
 }
 
@@ -318,8 +340,7 @@ ul.postlist li a:hover {
 
 .recentposts p {
 	font-size: 4rem;
-	text-transform: uppercase;
-	font-weight: 100;
+	font-weight: 600;
 }
 
 .recentposts a {
@@ -333,7 +354,7 @@ ul.postlist li a:hover {
 }
 
 .recentpostkader a {
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 300;
 	text-decoration: none;
 	color: black;
@@ -364,27 +385,31 @@ ul.postlist li a:hover {
 	transition: 1s;
 }
 
-.afbeeldingrecent1, .afbeeldingrecent2  {
-	filter:grayscale(100%);
+.kader1 a, .kader2 a {
+	margin-left: 5rem;
+	margin-right: 5rem;
 }
-
-.afbeeldingrecent1:hover, .afbeeldingrecent2:hover  {
-	filter:grayscale(0%);
-}
-
-
 
 .kader1, .kader2 {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
+	filter:grayscale(100%);
+	transition: 1s;
+}
+
+.kader1:hover, .kader2:hover {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	filter:grayscale(0%);
 }
 
 .titeltekst {
 	text-align: left;
 	padding-bottom: 2rem;
-	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 1.5rem;
 	font-weight: 600;
-	font-size: 1.6rem;
+	font-family: 'Archivo Narrow', sans-serif;
+	letter-spacing: .2rem;
 }
 
 .borderbottom{
@@ -489,7 +514,7 @@ footer {
 
 	.recentpostkader a {
 		display: block;
-		width: 65rem;
+		width: 50rem;
 		margin: auto;
 	}
 
@@ -501,6 +526,7 @@ footer {
 		position: absolute;
 		right: 10rem;
 		top: 6rem;
+		font-style: italic;
 	}
 
 
@@ -539,6 +565,7 @@ footer {
 		padding-top: 6rem;
 		padding-bottom: 1rem;
 	}
+
 }
 
 /* FORM CONTACT */
@@ -629,4 +656,22 @@ footer {
 
 .next {
 	margin-left: 3rem;
+}
+
+
+.afbeeldingrecent1, .afbeeldingrecent2 {
+	position: relative;
+}
+
+
+.posted {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 300;
+	font-family: 'Archivo Narrow', sans-serif;
+	letter-spacing: .2rem;
+	transform: rotate(90deg);
+	position: absolute;
+	top: 12.5rem;
+	left: -3rem;
 }
