@@ -620,7 +620,7 @@ footer {
 
 
 
-@media (min-width: 700px) {
+@media (min-width: 200px) {
     .contactformulier{
       display: grid;
       grid-template-columns: 10rem 1fr;
