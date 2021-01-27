@@ -566,6 +566,7 @@ footer {
 		padding-bottom: 1rem;
 	}
 
+
 }
 
 /* FORM CONTACT */
@@ -633,6 +634,17 @@ footer {
       .contactformulier input[type="submit"] {
             grid-column: 2;
       }
+			.posted {
+				text-transform: uppercase;
+				font-size: 1.5rem;
+				font-weight: 300;
+				font-family: 'Archivo Narrow', sans-serif;
+				letter-spacing: .2rem;
+				position: absolute;
+				left: -1.7rem;
+				bottom: 41.5rem;
+				transform: rotate(90deg);
+			}
 }
 
 /* PAGINATION */
@@ -671,5 +683,7 @@ footer {
 	font-family: 'Archivo Narrow', sans-serif;
 	letter-spacing: .2rem;
 	position: absolute;
+	left: -4rem;
+	bottom: 31.5rem;
 	transform: rotate(90deg);
 }
